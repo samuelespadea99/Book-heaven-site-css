@@ -1,0 +1,144 @@
+body {
+    font-family: Calibri, Arial, sans-serif;
+    color: #131C26;
+    background-color: #F8F8F8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2E2E4E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    color: #2E2E4E;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: Comfortaa, Arial, sans-serif;
+    color: #5C2E5C;
+    margin-top: 20px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D9D9D9;
+}
+
+main {
+    width: 85%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    vertical-align: top;
+    padding: 15px;
+    background-color: #FAFAFA;
+}
+
+td p {
+    margin: 10px 0;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+    background-color: #3F5461;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #5C2E5C;
+}
+
+input[type="reset"] {
+    background-color: #742C36;
+}
+
+input[type="reset"]:hover {
+    background-color: #5C2E5C;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+footer {
+    background-color: #2E2E4E;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+section {
+    margin-bottom: 25px;
+}
